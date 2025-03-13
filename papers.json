@@ -1,0 +1,42 @@
+[
+
+    {
+      "title": "Reinforcement Learning Infused MAC for Adaptive Connectivity",
+      "authors": "Dinesh Kumar Sah et al.",
+      "conference": "IEEE Wireless Communications and Networking Conference (WCNC-24)",
+      "year": 2024,
+      "location": "Dubai, UAE",
+      "link": "https://www.example.com/conference-paper1",
+      "type": "Conference"
+    },
+    {
+      "title": "Optimizing Resource Utilization using Vector Databases in Green Internet of Things",
+      "authors": "Kumari Rani, Dinesh Kumar Sah et al.",
+      "conference": "IEEE Globecom Workshops",
+      "year": 2023,
+      "location": "Kuala Lumpur, Malaysia",
+      "link": "https://www.example.com/conference-paper2",
+      "type": "Conference"
+    },
+    {
+      "title": "5G Applications and Architectures",
+      "authors": "Dinesh Kumar Sah, D. Praveen Kumar, Chaya Shivalingagowda, P. V. Y. Jayasree",
+      "book": "5G Enabled Secure Wireless Networks",
+      "publisher": "Springer",
+      "year": 2018,
+      "chapter": 2,
+      "pages": "45-68",
+      "link": "https://link.springer.com/chapter/10.1007/978-3-030-03508-2_2",
+      "type": "Book Chapter"
+    },
+    {
+      "title": "Optimization techniques in Wireless Sensor Networks",
+      "authors": "Dinesh Kumar Sah, D Praveen Kumar, Chaya",
+      "book": "Soft Computing in Wireless Sensor Networks",
+      "publisher": "CRC Publications",
+      "year": 2018,
+      "chapter": 2,
+      "link": "https://www.example.com/book-chapter2",
+      "type": "Book Chapter"
+    }
+  ]

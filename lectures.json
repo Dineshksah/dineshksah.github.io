@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Operating Systems",
+        "description": "Covers process management, scheduling, memory management, and file systems.",
+        "page": "os-slides.html"
+    },
+    {
+        "title": "Computer Networks",
+        "description": "Networking fundamentals, TCP/IP, routing, network security, and protocols.",
+        "page": "network-slides.html"
+    },
+    {
+        "title": "Machine Learning",
+        "description": "Supervised and unsupervised learning, neural networks, deep learning basics.",
+        "page": "ml-slides.html"
+    },
+    {
+        "title": "Artificial Intelligence",
+        "description": "Overview of AI techniques and algorithms",
+        "page": "ai-slides.html"
+    },
+    {
+        "title": "Internet of Things",
+        "description": "IoT concepts and applications",
+        "page": "iot-slides.html"
+    },
+    {
+        "title": "Python Programming",
+        "description": "Python programming basics and advanced topics",
+        "page": "python-slides.html"
+    }
+    
+]

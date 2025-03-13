@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content />
         <meta name="author" content />
-        <title>Modern Business - Start Bootstrap Template</title>
+        <!-- <title>Modern Business - Start Bootstrap Template</title> -->
+        <title>Contact - DKS</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Custom Google font-->
@@ -22,7 +23,7 @@
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Start Bootstrap</span></a>
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Dinesh Kumar Sah</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
@@ -44,90 +45,112 @@
                             <h1 class="fw-bolder">Get in touch</h1>
                             <p class="lead fw-normal text-muted mb-0">Let's work together!</p>
                         </div>
-                        <div class="row gx-5 justify-content-center">
-                            <div class="col-lg-8 col-xl-6">
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- * * SB Forms Contact Form * *-->
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- This form is pre-integrated with SB Forms.-->
-                                <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
-                                <!-- to get an API token!-->
-                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                    <!-- Name input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">Full name</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                                    </div>
-                                    <!-- Email address input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                        <label for="email">Email address</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                                    </div>
-                                    <!-- Phone number input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">Phone number</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                                    </div>
-                                    <!-- Message input-->
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Message</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                                    </div>
-                                    <!-- Submit success message-->
-                                    <!---->
-                                    <!-- This is what your users will see when the form-->
-                                    <!-- has successfully submitted-->
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Form submission successful!</div>
-                                            To activate this form, sign up at
-                                            <br />
-                                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                        </div>
-                                    </div>
-                                    <!-- Submit error message-->
-                                    <!---->
-                                    <!-- This is what your users will see when there is-->
-                                    <!-- an error submitting the form-->
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <!-- Submit Button-->
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                                </form>
-                            </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-8 col-xl-6">
+                            <form id="contactForm">
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                                    <label for="name">Full Name</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="email" type="email" placeholder="name@example.com" required />
+                                    <label for="email">Email Address</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control" id="message" placeholder="Enter your message..." style="height: 10rem" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                                <div class="d-grid"><button class="btn btn-primary" id="submitButton" type="submit">Submit</button></div>
+                                <p id="formStatus" class="text-center mt-3"></p>
+                                <p>Total Visitors: <span id="visit-count">Loading...</span></p>
+                            </form>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="dist/js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        
+        <script type="module">
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-app.js";
+            import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/11.3.1/firebase-firestore.js";
+        
+            // Firebase Configuration
+            const firebaseConfig = {
+                apiKey: "AIzaSyALmsmp7Ucl5R_MDv22D4RGgfpVOBVGSXM",
+                authDomain: "visitortracker-b05e8.firebaseapp.com",
+                projectId: "visitortracker-b05e8",
+                storageBucket: "visitortracker-b05e8.firebaseapp.com",
+                messagingSenderId: "436116621979",
+                appId: "1:436116621979:web:8ce66c51e2e0ae87d2143e"
+            };
+        
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const db = getFirestore(app);
+        
+            // Function to Log Visitor Data
+            async function logVisitor() {
+                try {
+                    const ipResponse = await fetch('https://ipinfo.io/json?token=YOUR_IPINFO_TOKEN'); // Replace with your IPInfo.io token
+                    const ipData = await ipResponse.json();
+                    const visitorIP = ipData.ip;
+        
+                    const visitorData = {
+                        ip: visitorIP,
+                        city: ipData.city || "Unknown",
+                        country: ipData.country || "Unknown",
+                        browser: navigator.userAgent,
+                        date: new Date().toISOString()
+                    };
+        
+                    // Store visitor data in Firestore
+                    await addDoc(collection(db, "visitors"), visitorData);
+                    console.log("Visitor logged in Firebase");
+                } catch (error) {
+                    console.error("Error logging visitor:", error);
+                }
+            }
+        
+            // Function to Update Visitor Count
+            async function updateVisitorCount() {
+                try {
+                    const querySnapshot = await getDocs(collection(db, "visitors"));
+                    let visitorCount = querySnapshot.size;
+                    document.getElementById("visit-count").innerText = visitorCount;
+                } catch (error) {
+                    console.error("Error fetching visitor count:", error);
+                    document.getElementById("visit-count").innerText = "Error!";
+                }
+            }
+        
+            // Log Visitor and Update Visitor Count on Page Load
+            logVisitor();
+            updateVisitorCount();
+        
+            // Contact Form Submission
+            document.getElementById("contactForm").addEventListener("submit", async function (event) {
+                event.preventDefault();
+                let name = document.getElementById("name").value;
+                let email = document.getElementById("email").value;
+                let message = document.getElementById("message").value;
+        
+                try {
+                    await addDoc(collection(db, "messages"), {
+                        name: name,
+                        email: email,
+                        message: message,
+                        timestamp: new Date().toISOString()
+                    });
+        
+                    document.getElementById("formStatus").innerText = "Message sent successfully!";
+                    document.getElementById("formStatus").style.color = "green";
+                    document.getElementById("contactForm").reset();
+                } catch (error) {
+                    document.getElementById("formStatus").innerText = "Error sending message. Try again.";
+                    document.getElementById("formStatus").style.color = "red";
+                }
+            });
+        </script>
+        
     </body>
 </html>

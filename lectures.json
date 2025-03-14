@@ -21,12 +21,12 @@
     },
     {
         "title": "Internet of Things",
-        "description": "IoT concepts and applications",
+        "description": "IoT concepts, architecture,  applications",
         "page": "iot-slides.html"
     },
     {
         "title": "Python Programming",
-        "description": "Python programming basics and advanced topics",
+        "description": "Basics and advanced topics",
         "page": "python-slides.html"
     }
     

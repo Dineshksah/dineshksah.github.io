@@ -17,7 +17,7 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Custom Google font-->
 
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
@@ -53,8 +53,14 @@
         
         <!-- Publications Section -->
         <div class="container px-5 my-5">
-            <h1 class="display-5 fw-bolder text-center">Publications</h1>
-            
+            <!-- <h1 class="display-5 fw-bolder text-center">Publications</h1> -->
+            <div class="text-center mb-5">
+            <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Publications</span></h1>
+        </div>
+
+        <!-- ## important without div too
+            <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Publications</span></h1> -->
+       
             <!-- Journal Publications -->
             <section id="journals-section" class="mt-5">
                 <h2 class="text-primary fw-bolder">Journal Publications</h2>
@@ -71,7 +77,24 @@
 
 
 
-    <!-- Footer -->
+     <!-- Footer-->
+     <section class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <div class="d-flex justify-content-center fs-2 gap-4">
+                            <!-- <a class="text-gradient" href="https://twitter.com/yourprofile" target="_blank"><i class="bi bi-twitter"></i></a> -->
+                            <a class="text-gradient" href="https://scholar.google.co.in/citations?user=5rvrZk8AAAAJ&hl=en&oi=sra" target="_blank"><i class="bi bi-mortarboard"></i></a>
+                            <a class="text-gradient" href="linkedin.com/in/dinesh-kr-sah-87026644" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a class="text-gradient" href="https://github.com/Dineshksah" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="bg-white py-4 mt-auto">
         <div class="container px-5">
             <div class="row align-items-center justify-content-between">
@@ -86,5 +109,9 @@
             </div>
         </div>
     </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="dist/js/scripts.js"></script>
 </body>
 </html>

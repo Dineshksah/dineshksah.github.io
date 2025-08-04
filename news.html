@@ -1,6 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>News - Dinesh Kumar Sah</title>
+    <link rel="stylesheet" href="dist/css/styles.css" />
+</head>
+<body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">DKS</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                        <li class="nav-item"><a class="nav-link" href="lectures.html">Lectures</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.html">News</a></li> <!-- New Tab -->
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- News Section -->
+        <section class="container py-5">
+            <h1 class="text-center display-5 fw-bolder mb-5">News & Announcements</h1>
+            <div id="news-container" class="row">
+                Loading news...
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto"><div class="small">&copy; 2025 DKS</div></div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        fetch('news.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('news-container');
+                container.innerHTML = '';
+                data.forEach(item => {
+                    const card = `
+                        <div class="col-lg-6 mb-4">
+                            <div class="card shadow border-0 rounded-4 h-100">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title fw-bold text-primary">${item.title}</h5>
+                                    <p class="card-text">${item.description}</p>
+                                    <p class="text-muted small">📅 ${item.date}</p>
+                                    <a href="${item.link}" class="btn btn-sm btn-outline-primary" target="_blank">Visit Page</a>
+                                </div>
+                            </div>
+                        </div>`;
+                    container.innerHTML += card;
+                });
+            })
+            .catch(error => {
+                document.getElementById('news-container').innerHTML = "⚠️ Failed to load news.";
+                console.error("Error loading news:", error);
+            });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SPADE Workshop @ IoT 2025</title>
@@ -88,3 +236,4 @@
 
 </body>
 </html>
+ -->

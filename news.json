@@ -1,10 +1,20 @@
 [
+    
+    {
+          "title": "SPADE Workshop @ IoT 2025",
+          "description": "Join us for our workshop on Scheduling & Parallelism in AI for Distributed Edges at IoT 2025.",
+          "date": "Aug 2025",
+          "link": "spade-workshop.html"
+    }
+    
+    
     {
         "title": "Special Issue on 6G IoT Systems",
         "description": "Call for papers open for the special issue on Sustainable and Intelligent IoT for 6G.",
         "date": "August 2025",
         "link": "https://example.com/6g-iot-special-issue"
     },
+
     {
         "title": "Workshop on AI at the Edge (IoT 2025)",
         "description": "Workshop on Scheduling & Parallelism in AI for Distributed Edges accepted at IoT 2025.",

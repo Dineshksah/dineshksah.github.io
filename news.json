@@ -2,30 +2,18 @@
     
     {
           "title": "SPADE Workshop  IoT 2025",
-          "description": "Join us for our workshop on Scheduling & Parallelism in AI for Distributed Edges at IoT 2025.",
-          "date": "Aug 2025",
+          "description": "Workshop on Scheduling & Parallelism in AI for Distributed Edges at IoT 2025.",
+          "date": "Oct 2025",
           "link": "spade-workshop.html"
     },
     
     
     {
-        "title": "Special  on 6G IoT Systems",
-        "description": "Call for papers open for the special issue on Sustainable and Intelligent IoT for 6G.",
-        "date": "August 2025",
-        "link": "https://example.com/6g-iot-special-issue"
+        "title": "Internet Technology Letters", Wiley (Indexing: Web of Science, Scopus, EI index, Impact factor: 1.5),
+        "description": "Call for Papers: Modern Learning Algorithms for Internet of Things.",
+        "date": "August 2024",
+        "link": "https://www.linkedin.com/pulse/call-papers-modern-learning-algorithms-internet-things-donta-kexze/"
     },
 
-        {
-          "title": "SPADE Workshop  IoT 2025",
-          "description": "Join us for our workshop on Scheduling & Parallelism in AI for Distributed Edges at IoT 2025.",
-          "date": "Aug 2025",
-          "link": "spade-workshop.html"
-    },
 
-    {
-        "title": " on AI at the Edge (IoT 2025)",
-        "description": "Workshop on Scheduling & Parallelism in AI for Distributed Edges accepted at IoT 2025.",
-        "date": "July 2025",
-        "link": "https://iot-conference.org/2025/workshops/spade"
-    }
 ]
